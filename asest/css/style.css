@@ -18,13 +18,41 @@ body {
     font-weight: 700;
     padding: 15px 35px;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 40px;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    margin: 40px;
+}
+
+.common-sec {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px auto;
+    width: 1140px;
+
+
 }
 
 a {
     text-decoration: none;
 }
+
+/* =========nav relyted style============ */
 
 .nav {
     display: flex;
@@ -59,3 +87,174 @@ a {
     font-weight: 400;
 
 }
+
+/* ===========header relyted style============ */
+
+header {
+    width: 100%;
+    /* flex-shrink: 0; */
+    background-color: #FFF8F3;
+    background-image: url('/asest/images/header_bg.png'), url('/asest/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 0px 150px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-content h3 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-content h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-content p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-content>button {
+    margin-top: 20px;
+}
+
+.banner .banner-sbj {
+    width: 500px;
+}
+
+/* ==================about=============== */
+.about-sec {
+    border: 1px solid #ab693a;
+}
+
+.about h3 {
+    margin-bottom: 30px;
+}
+
+.about p {
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+/* ==================skills=============== */
+
+.skill-sec {
+    border: none;
+}
+
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+
+.skill {
+    margin: 30px 0px;
+    padding: 10px;
+    text-align: justify;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 2px 6px 50px 3px rgba(0, 0, 0, .6);
+
+}
+
+.skill .skill-title {
+    margin: 15px 0px;
+}
+
+/* ===============resume================== */
+.resume-content {
+    display: flex;
+    column-gap: 40px;
+}
+
+.resume-dtls .resume-dtls-title {
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.resume-dtls .resume-item{
+    margin-bottom: 20px;
+}
+
+.resume-dtls .resume-item .resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0px;
+
+}
+
+.resume-dtls .resume-item .resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.resume-dtls .resume-item .resume-item-des {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0px;
+    padding-bottom: 15px;
+}
+.download-cv{
+    text-align: center;
+}
+
+/* ======================footer================== */
+.ftr-sec{
+    background: #eee8e3;
+    display: flex;
+    align-items: center;
+}
+.footer-column{
+    width: 50%;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact>input , .contact>textarea{
+    margin-bottom :15px; 
+    padding: 15px;
+    border: 1px solid #FFF8F3;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    background: #fff;
+}
+.contact >div{
+    text-align: start;
+}
+/* .contact input{
+    padding: 15px;
+} */
