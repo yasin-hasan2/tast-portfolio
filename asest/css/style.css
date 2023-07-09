@@ -58,7 +58,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 20px;
+    padding-top: 20px;
+    filter: blur();
+    
 }
 
 .logo>a {
@@ -96,8 +98,9 @@ header {
     background-color: #FFF8F3;
     background-image: url('/asest/images/header_bg.png'), url('/asest/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, top left;
-
+    background-position: bottom right, center left;
+    background-size: 750px , 80px;
+    
 }
 
 .banner {
